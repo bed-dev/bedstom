@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "BedStom"
+  name: "Bedstom"
   text: "Minestom Libraries"
   tagline: "Standard utilities for Minestom development."
   actions:
