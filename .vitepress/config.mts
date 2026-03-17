@@ -1,9 +1,9 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "BedStom",
+  title: "Bedstom",
   description: "Minestom Libraries by Bed",
-  base: '/bedstom/',
+  base: '/',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
