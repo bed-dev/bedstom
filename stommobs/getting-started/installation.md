@@ -6,7 +6,7 @@ description: "Add StomMobs to your Minestom server."
 
 First, ensure you are using [Minestom](https://minestom.net/) as your server implementation.
 
-StomMobs is available via [JitPack](https://jitpack.io/#bed-dev/stommobs).
+StomMobs is available via Mavencentral
 
 ## Dependency
 
@@ -16,37 +16,31 @@ Add the repository and dependency to your build file.
 
 ```kotlin [Gradle (Kotlin)]
 repositories {
-    maven("https://jitpack.io")
+    mavenCentral()
 }
 
 dependencies {
-    implementation("com.github.bed-dev:stommobs:<version>")
+    implementation("codes.bed.minestom:mob:0.1.0")
 }
 ```
 
 ```groovy [Gradle (Groovy)]
 repositories {
-    maven { url 'https://jitpack.io' }
+    mavenentral()
 }
 
 dependencies {
-    implementation 'com.github.bed-dev:stommobs:<version>'
+    implementation 'codes.bed.minestom:mob:0.1.0'
 }
 ```
 
 ```xml [Maven]
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-</repositories>
 
 <dependencies>
     <dependency>
-        <groupId>com.github.bed-dev</groupId>
-        <artifactId>stommobs</artifactId>
-        <version>&lt;version&gt;</version>
+        <groupId>codes.bed.minestom</groupId>
+        <artifactId>mob</artifactId>
+        <version>0.1.0</version>
     </dependency>
 </dependencies>
 ```
